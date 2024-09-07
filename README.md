@@ -6,6 +6,7 @@ This project aims to develop a self-driving car system using computer vision tec
 
 ## Data Collection
 
+
 Data collection is performed using the Udacity simulator, which provides a realistic environment for training the model. The simulator allows users to drive a virtual car and records data such as images and corresponding steering angles, throttle, reverse and speed in a CSV file.
 
 To collect data, follow these steps:
