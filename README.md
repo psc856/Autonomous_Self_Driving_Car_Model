@@ -38,7 +38,7 @@ To run the project, follow these steps:
 5. Execute the main script, which will capture real-time screenshots, process them, and generate control commands for the car.
 
 ## Demo Video 
-https://youtu.be/oW5gA0JFwbM
+
 
 ## Acknowledgments
 
