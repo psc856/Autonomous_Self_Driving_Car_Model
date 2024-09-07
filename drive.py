@@ -8,7 +8,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 import cv2
- 
+
 sio = socketio.Server()
  
 app = Flask(__name__) 
@@ -48,8 +48,7 @@ def send_control(steering_angle, throttle):
     })
  
  
-if __name__ == '__main__':
-    
+if __name__ == '__main__':    
     model = tf.keras.models.load_model('model.keras')
     app = socketio.Middleware(sio, app)
     eventlet.wsgi.server(eventlet.listen(('', 4567)), app)
